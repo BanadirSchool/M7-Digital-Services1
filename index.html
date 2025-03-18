@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="so">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> M7 Digital Services</title>
+    <link rel="icon" type="image/x-icon" href="M7 DIGITAL SERVICES copy 2.png">
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: #ffffff;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        .name {
+            font-size: 20px;
+        }
+
+        .blog-section,
+        .video-section {
+            padding: 20px;
+            background-color: #ffffff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideUp 1s ease-in-out;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: #ffffff;
+            animation: fadeIn 1s;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        section {
+            justify-content: center;
+            margin-left: 10%;
+            flex-direction: column;
+            -ms-flex-item-align: unset;
+            animation-duration: initial;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: #ffffff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .slide-up {
+            animation: slideUp 1s ease-in-out;
+        }
+
+        .zoom-in {
+            animation: zoomIn 1s ease-in-out;
+        }
+
+        /* Jiif-jiifka sawirada */
+        .image {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            /* For Tablets and Mobile */
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .name {
+                margin-top: 10px;
+            }
+
+            .blog-section,
+            .video-section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .image {
+                flex-direction: column;
+            }
+
+            .image img {
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* For Mobile Phones */
+            header {
+                padding: 10px;
+            }
+
+            .name {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .blog-section,
+            .video-section {
+                margin: 5px;
+                padding: 10px;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            th,
+            td {
+                padding: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="M7 DIGITAL SERVICES copy 2.png" width=200px, height="200px">
+        <div class="name">M7 Digital Services</div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <H2>waa maxay CPU muxuuse Qabta?</H2>
+        <p>CPU (Central Processing Unit) ama Unugga Ka shaqeeya Xogaha Dhexe waa maskaxda ugu muhiimsan ee kombiyuutarka. Waa qaybta ka shaqeysa dhammaan xisaabinta iyo fulinta amarada barnaamijyada.</p>
+
+        <h2>Shaqada CPU</h2>
+        <p>Fasiraadda Amarada – CPU-ga wuxuu akhriyaa amarrada barnaamijka oo uu fasiraa si loo fuliyo.
+            Xisaabinta iyo Xog-hawleedka – Waxay qabataa hawlaha xisaabeed (tusaale: isku dar, kala jar, isku dhufo, qayb, iwm.).
+            Maareynta Xogta – Waxay kala hagaajisaa xogta u dhexeysa xusuusta (RAM), kaydka (Hard Disk), iyo qalabka kale ee kombiyuutarka.
+            Fulinta Barnaamijyada – Dhammaan hawlaha kombiyuutarka, sida daalacashada internetka ama ciyaarista game-ka, waxay u baahan yihiin CPU si ay u shaqeeyaan.</p>
+        <h2>Qaybaha ugu Muhiimsan ee CPU</h2>
+        <p>ALU (Arithmetic Logic Unit) – Waxay qabataa xisaabinta iyo hawlaha xisaabeed ee caqliga ku saleysan.
+            CU (Control Unit) – Waxay hagtaa oo maamushaa habka xogaha iyo amarada kombiyuutarka.
+            Registers – Waa xasuus yar oo deg deg ah oo kaydisa xogta inta CPU-gu shaqeynayo.</p>
+        <h2>Tusaale Fudud</h2>
+        <p>Haddii aad furto barnaamij sida Microsoft Word, CPU-gu wuxuu amarka ka helayaa RAM, wuxuu farsameynayaa xogta, kadibna wuxuu natiijada ku soo bandhigayaa shaashadda</p>
+
+        <h2>Waa maxay Ram muxuuse qabta?</h2>
+        <p>RAM (Random Access Memory) waa xasuusta ku-meel-gaarka ah ee kombiyuutarka ama qalabka elektaroonigga ah.<br>
+            Waxay si degdeg ah u kaydisaa una maamushaa xogta iyo barnaamijyada uu kombiyuutarku si toos ah u
+            adeegsanayo.</p>
+
+        <h2>Hawlaha RAM</h2>
+        <p><B>1.</B> Xawaaraha Kombiyuutarka Wuxuu Ku Xiran Yahay – RAM-ku wuxuu si dhakhso leh ugu kaydiyaa xogta si<br>
+            processor-ka u isticmaalo, taasoo ka dhigan in kombiyuutarku si dhaqso leh u shaqeeyo.<br>
+            <B>2.</B> Xogta Si KMG Ah Ayuu U Kaydiyaa – Marka aad fureyso barnaamijyo ama faylal, xogtooda waxaa lagu shubaa<br>
+            RAM si aad ugu shaqeyso si degdeg ah.<br>
+            <B>3.</B> Ma Jirto Xasuus Joogto Ah – Marka aad damiso kombiyuutarka, dhammaan xogta ku jirta RAM way tirtirmaysaa,<br>
+            taasoo ka dhigan in uu kaydi karo xogta inta kombiyuutarka shidan yahay oo keliya.<br>
+            <B>4.</B> Waxay Saameyn Ku Leedahay Awoodda Multi-tasking – Haddii kombiyuutarku leeyahay RAM badan, wuxuu si fudud<br>
+            u maamuli karaa barnaamijyo badan hal mar.
+        </p>
+
+        <h2>Noocyada RAM</h2>
+        <p>• DRAM (Dynamic RAM) – Waa nooca ugu badan ee laga isticmaalo kombiyuutarada casriga ah.<br>
+            • SRAM (Static RAM) – Waa nooc ka dhakhso badan DRAM laakiin qaali ah, wuxuuna inta badan ku jiraa xasuusta<br>
+            cache-ka ee processor-ka.<br>
+            • DDR (Double Data Rate) – Noocyo kala duwan ayuu leeyahay sida DDR3, DDR4, iyo DDR5, kuwaas oo mid walba ka
+            dhakhso badan kii ka horreeyay.
+        </p>
+
+        <h2>Waa maxay GHZ muxuuse qabta?</h2>
+        <p>GHz (Gigahertz) waa cabbir lagu muujiyo xawaaraha processor-ka ama qalab kale oo elektaroonig ah.<br> GHz wuxuu
+            tilmaamayaa inta jeer ee wareegyo (cycles) uu processor-ku sameyn karo ilbiriqsigiiba.</p>
+
+        <h2>Hawlaha GHz</h2>
+        <p><B>1.</B>	Xawaaraha Processor-ka – Tusaale, haddii processor-kaagu leeyahay<br> 3.5 GHz, waxay ka dhigan tahay inuu sameyn karo 3.5 bilyan oo wareeg ilbiriqsigiiba.<br>
+            <B>2.</B>	Saameyn Ku Yeesha Waxqabadka – Marka GHz uu sarreeyo, processor-ku <br>wuu dhakhso badan yahay, taasoo ka dhigaysa in kombiyuutarka si degdeg ah u fuliyo hawlaha.<br>
+            <B>3.</B>	Looma Eego GHz Keliya – Inkasta oo GHz sare uu ka dhigan yahay xawaare sare, <br>haddana waxqabadka processor-ku wuxuu ku xiran yahay arrimo kale sida tirada cores-ka, cache-ka, iyo naqshadda processor-ka.
+        </p> <BR>
+
+        <P>Tusaale
+            •	Processor 2.0 GHz Dual-Core: Wuxuu leeyahay laba cores, mid walbana wuxuu shaqeynayaa 2.0 GHz.<br>
+            •	Processor 3.5 GHz Quad-Core: Wuxuu leeyahay afar cores, mid walbana wuxuu shaqeynayaa 3.5 GHz,<br> taasoo macnaheedu yahay inuu ka awood badan yahay kii hore.
+        </P>
+
+        <!-- Table Section -->
+        <h3>Farqiga u Dhexeeya HDD iyo SSD, Midkee Fiican?</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Qodob</th>
+                    <th>HDD (Hard Disk Drive)</th>
+                    <th>SSD (Solid State Drive)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Dhismaha</td>
+                    <td>Wuxuu ka kooban yahay saxanno wareegaya iyo qalab akhriya/qoro xogta.</td>
+                    <td>Wuxuu ka kooban yahay xasuus Flash ah oo aan lahayn qaybo dhaqaaqaya.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Xawaaraha</td>
+                    <td>Aad u gaabiya (100-200 MB/s).</td>
+                    <td>Aad u dheereeya (500 MB/s ilaa 7000 MB/s).</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Xasiloonida</td>
+                    <td>Wuu fudud yahay inuu xumaado haddii la ruxo ama dhaco.</td>
+                    <td>Aad buu u adkaystaa maxaa yeelay ma laha qayb dhaqaaqaya.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Nolosha & Cimriga</td>
+                    <td>Cimrigiisu waa dhexdhexaad.</td>
+                    <td>Wuxuu leeyahay cimri dheer.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Qiimaha</td>
+                    <td>Wuu ka jaban yahay, gaar ahaan marka la eego xaddiga kaydinta.</td>
+                    <td>Wuu ka qaalisan yahay marka la barbar dhigo HDD.</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Koronto Isticmaal</td>
+                    <td>Wuxuu isticmaalaa tamar badan.</td>
+                    <td>Wuxuu isticmaalaa tamar yar.</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Buuqa</td>
+                    <td>Wuxuu sameeyaa buuq yar sababtoo ah saxannada wareegaya.</td>
+                    <td>Wuu aamusan yahay maxaa yeelay ma laha qaybo dhaqaaqaya.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><B>2.</B> Midkee Fiican?</h2>
+        <p>•	HDD waa fiican haddii aad rabto kaydin badan oo raqiis ah, <br>sida kombiyuutarro kaydiya xog badan (filimo, sawirro, documents, iwm.).
+            •	SSD waa fiican haddii aad rabto xawaare sare iyo waxqabad fiican, gaar ahaan haddii aad isticmaasho barnaamijyo culus sida gaming, design, ama programming.
+            </p> <BR>
+                <P>Haddii aad rabto kombiyuutar dhakhso badan, aamusan, oo waqti dheer shaqeynaya, dooro SSD.
+                    Haddii aad rabto xog badan oo raqiis ah, dooro HDD.
+                    </P>
+
+        <h2>waa maxay rom muxuuse qabta?</h2>
+        <p>ROM (Read-Only Memory) waa xasuus aan la tirtiri karin oo kaydisa xogta muhiimka ah ee qalab elektaroonig ah u baahan yahay si uu u shaqeeyo.</p>
+
+        <h2>Hawlaha ROM</h2>
+        <p><B>1.</B> Xasuusta Aasaasiga ah – Waxay kaydisaa barnaamijyada muhiimka ah ee qalabku u baahan yahay marka la shido, sida BIOS ee kombiyuutarka.<br>
+            <B>2.</B> Xogta Lama Tirtiro – Xogta ku jirta ROM ma luminayso xitaa haddii qalabka la damiyo.<br>
+            <B>3.</B>	Ma Aha Mid La Bedbeddeli Karo – Xusuusta ROM lama qori karo si caadi ah, waxay u baahan tahay qalab gaar ah si wax loogu beddelo.
+            </p>
+
+        <h2>Noocyada ROM</h2>
+        <p><B>1.</B>	PROM (Programmable ROM) – Hal mar oo kaliya ayaa lagu shubi karaa xog.<br>
+            <B>2.</B>	EPROM (Erasable Programmable ROM) – Xogta waa la tirtiri karaa iyadoo la adeegsanayo iftiin gaar ah (ultraviolet light).<br>
+            <B>3.</B>	EEPROM (Electrically Erasable Programmable ROM) – Xogta waa la beddeli karaa iyada oo loo adeegsanayo koronto, waana nooca ay isticmaalaan casriga maanta.<br>
+            <B>4.</B>	Flash ROM – Waa nooca ROM casri ah ee loo isticmaalo qalabka sida USB, SSD, iyo Memory Cards.
+            </p>
+
+            <h3>Farqiga u Dhexeeya ROM iyo RAM</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Qodob</th>
+                        <th>ROM</th>
+                        <th>RAM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Xogta</td>
+                        <td>Ma beddeli karo xogta caadi ahaan.</td>
+                        <td>Xogta si fudud ayaa loo beddeli karaa.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nolosha Xogta</td>
+                        <td>Xogtu waa joogto (persistent).</td>
+                        <td>Xogtu way lumaysaa marka qalabka la damiyo.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Hawlaha</td>
+                        <td>Waxay kaydisaa software-ka aasaasiga ah ee qalabka ka shaqeeya.</td>
+                        <td>Waxay kaydisaa xogta si kumeelgaar ah inta qalabka shaqeynayo</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <p>ROM waa xasuus lama beddeli karo si caadi ah, waxayna muhiim u tahay shaqada qalabka.<br>
+            •	RAM waa xasuusta kombiyuutarka si ku-meel-gaar ah u kaydsata xogta inta aad isticmaalayso.</p>
+
+        <h2><B>1.</B> Waa Maxay BIOS?</h2>
+        <p>BIOS (Basic Input/Output System) waa barnaamij lagu kaydiyo xasuusta ROM, wuxuuna maamulaa sida qalabka kombiyuutarka u shaqeynayo marka la shido.</p>
+
+        <h2>Hawlaha BIOS</h2>
+        <p>•	Wuxuu fuliyaa POST (Power-On Self Test) si uu u hubiyo in qalabka kombiyuutarka (processor, RAM, keyboard, iwm.) uu si sax ah u shaqeynayo.<br>
+            •	Wuxuu bilaabaa nidaamka hawlgalka (Operating System) isagoo ka raadinaaya diskiga adag (HDD/SSD) ama qalab kale.<br>
+            •	Wuxuu suurtageliyaa isgaarsiinta u dhexeysa qalabka kombiyuutarka iyo nidaamka hawlgalka.<br>
+            •	Waxaa laga heli karaa BIOS Setup, oo kuu oggolaanaya inaad wax ka beddesho dejinta hardware-ka (sida waqtiga, boot options, iwm.).
+            </p>
+            <h2><B>2.</B> Waa Maxay CMOS?</h2>
+            <p>CMOS (Complementary Metal-Oxide-Semiconductor) waa nooc ka mid ah xasuusta oo kaydisa dejimaha muhiimka ah ee BIOS u baahan yahay, sida:<br>
+                •	Waqtiga iyo taariikhda kombiyuutarka.<br>
+                •	Dejinta boot order (diskiga kombiyuutarku ka bilaabanayo).<br>
+                •	Dejinta hardware-ka sida processor-ka iyo fan-ka.<br>
+                CMOS wuxuu isticmaalaa baytari yar (CMOS battery), si uu u xafido xogta xitaa marka kombiyuutarka la damiyo.<br> Haddii CMOS baytarigiisu dhammaado, kombiyuutarku wuu ilaawi karaa taariikhda iyo dejimaha kale.
+                </p>
+                <h3><B>3.</B> Farqiga u Dhexeeya BIOS iyo CMOS</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Qodob</th>
+                            <th>BIOS</th>
+                            <th>CMOS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Waa maxay?</td>
+                            <td>Waa barnaamij lagu kaydiyo ROM oo maamula hardware-ka kombiyuutarka marka la shido.</td>
+                            <td>Waa xasuus kaydisa dejimaha BIOS iyo taariikhda kombiyuutarka.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Goobta uu ku jiro</td>
+                            <td>Wuxuu ku jiraa ROM (Read-Only Memory).</td>
+                            <td>Wuxuu ku jiraa xasuus yar oo ku shaqeysa baytari (CMOS battery).</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Hawlaha</td>
+                            <td>Hubinta qalabka (POST), dejinta boot order, iyo maamulidda hardware-ka.</td>
+                            <td>Kaydinta dejimaha BIOS sida waqtiga iyo taariikhda.</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Saameynta Baytariga</td>
+                            <td>BIOS ma saameeyo baytariga.</td>
+                            <td>Haddii baytariga CMOS dhammaado, dejimaha BIOS way tirtirmayaan.</td>
+                        </tr>
+                    </tbody>
+                </table>
+             <p><b> •	BIOS waa barnaamij maamula qalabka kombiyuutarka, wuxuuna kaydsan yahay ROM.<br>
+                •	CMOS waa xasuus kaydisa dejimaha BIOS, wuxuuna ku shaqeeyaa baytari.<br>
+                •	Haddii CMOS baytarigiisu dhammaado, kombiyuutarku wuxuu luminayaa waqtiga iyo dejimaha, laakiin BIOS weli wuu shaqeynayaa. </b></p>
+    </section>
+
+    <!-- Jiif-jiifka sawirada -->
+    <section class="image zoom-in">
+        <h2>Waa CPU</h2>
+        <img src="Intel-Core.webp" alt="CPU Image">
+        <h2>Waa Ram</h2>
+        <img src="NSYr6nsP63PRbdJFMNL5pT-1200-80.jpg" alt="RAM Image">
+        <h2>Waa Rom</h2>
+        <img src="ROM-Types.jpg" alt="ROM Image">
+        <h2>Waa Rom</h2>
+        <img src="Difference-Between-CMOS-and-BIOS.jpg" alt="CMOS and BIOS Image">
+    </section>
+
+   
+
+    <!-- Footer Section -->
+    <footer>
+        <p>M7 Digital Services@gmail.com</p>
+        <p>Qeybtani waa Basic oo kaliya</p>
+    </footer>
+</body>
+
+</html>
